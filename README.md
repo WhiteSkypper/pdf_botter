@@ -81,7 +81,7 @@ https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
 https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 ```
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ashi-Singh/AutoRead-Status-Bot-Md/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/WhiteSkypper/pdf_botter/)
 
 # Install Manually 👇
 ## `Requirements`
