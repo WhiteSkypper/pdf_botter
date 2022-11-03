@@ -1,7 +1,7 @@
 {
   "name": "AutoRead-Status-Bot-Md",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Ashi-Singh/AutoRead-Status-Bot-Md#bot-support-groups",
+  "repository": "https://github.com/WhiteSkypper/pdf_botter",
   "logo": "https://i.ibb.co/qmQGB4n/Ashi-Singhh-Pic.jpg",
   "stack": "container",
    "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
