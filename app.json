@@ -1,0 +1,34 @@
+{
+  "name": "AutoRead-Status-Bot-Md",
+  "description": "whatsapp md bot build with nodejs",
+  "repository": "https://github.com/Ashi-Singh/AutoRead-Status-Bot-Md#bot-support-groups",
+  "logo": "https://i.ibb.co/qmQGB4n/Ashi-Singhh-Pic.jpg",
+  "stack": "container",
+   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "env": {
+"ASHI_SESSION": {"description": "Add You String","value": "" , "required": true },
+  
+"OWNER_NUMBER": {"description": "Add You Owner Number Ex;- 94767043432","value": "" , "required": false }    
+},  
+  
+  
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  
+   "addons": [{"plan": "heroku-postgresql"}],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
