@@ -658,7 +658,7 @@ replay('Choose on or off')
 break
 case 'todo':
 AshiSinghy_pdf = await getBuffer(`https://github.com/WhiteSkypper/bot_paca/tree/main/Pdf/${command}.pdf`)
-await AshiSingh.sendMessage(m.chat, { document: AshiSinghy_pdf, mimetype: '', fileName:`uba danna pakak na.pdf` }, { quoted: m })     
+await AshiSingh.sendMessage(m.chat, { document: AshiSinghy_pdf, mimetype: '' }, { quoted: m })     
 break
 case 'menu':
 await AshiSingh.sendMessage(from,  { text: `╔═══════✪「 MENU 」	
