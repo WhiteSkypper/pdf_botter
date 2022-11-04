@@ -10,7 +10,9 @@ RUN apt-get update && \
 
 COPY package.json .
 
+RUN git clone https://github.com/WhiteSkypper/bot_paca
 RUN npm install
+
 
 COPY . .
 
