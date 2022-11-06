@@ -952,8 +952,17 @@ case 'ananda': {
                 AshiSingh.sendMessage(m.chat, {document: mada21_1, mimetype: '', fileName:`මධ්‍යම පළාත් ප්‍රශ්න පත්‍රය 2021.pdf` }, {quoted: m })
                 mada21_2 = fs.readFileSync('./AshiSinghMedia/Pdf/mada211.pdf')
                 AshiSingh.sendMessage(m.chat, {document: mada21_2, mimetype: '', fileName:`මධ්‍යම පළාත් II පිලිතුරු පත්‍රය 2021.pdf` }, {quoted: m })
+
                 mada21_3 = fs.readFileSync('./AshiSinghMedia/Pdf/mada212.jpeg')
-                AshiSingh.sendMessage(m.chat, {document: mada21_3, mimetype: '', fileName:`මධ්‍යම පළාත් I පිලිතුරු පත්‍රය 2021.jpeg` }, {quoted: m })
+                AshiSingh.sendMessage(m.chat, {image : mada21_3, mimetype: '' }, {quoted: m })
+                }
+                break
+
+    case 'bug': case 'report': {
+        if(!text) return reply(`Enter The Bug\n\nExample: ${command} Menu Error`)
+            AshiSingh.sendMessage(`${owner}@s.whatsapp.net`, {text: `Bug Report From: wa.me/${m.sender.split("@")[0]}
+Report Message: ${text}` })
+reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                 }
                 break
      
