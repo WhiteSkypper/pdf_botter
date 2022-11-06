@@ -656,9 +656,39 @@ replay('Choose on or off')
 }
 }
 break
-case 'V2000': {
+case 'v2000': {
  re2000 = fs.readFileSync('./AshiSinghMedia/Pdf/V2000.pdf')
  AshiSingh.sendMessage(m.chat, {document: re2000, mimetype: '', fileName:`විවරණ 2000 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2001': {
+ re2001 = fs.readFileSync('./AshiSinghMedia/Pdf/V2001.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2001, mimetype: '', fileName:`විවරණ 2001 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2002': {
+ re2000 = fs.readFileSync('./AshiSinghMedia/Pdf/V2000.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2002, mimetype: '', fileName:`විවරණ 2002 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2003': {
+ re2003 = fs.readFileSync('./AshiSinghMedia/Pdf/V2000.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2003, mimetype: '', fileName:`විවරණ 2003 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2004': {
+ re2000 = fs.readFileSync('./AshiSinghMedia/Pdf/V2000.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2004, mimetype: '', fileName:`විවරණ 2004 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'vpaha': {
+ re2005 = fs.readFileSync('./AshiSinghMedia/Pdf/V2005.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2005, mimetype: '', fileName:`විවරණ 2005 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
  }
  break
 
