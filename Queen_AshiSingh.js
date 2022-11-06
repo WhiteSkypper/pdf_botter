@@ -656,14 +656,22 @@ replay('Choose on or off')
 }
 }
 break
-case 'todo': {
- re = fs.readFileSync('./AshiSinghMedia/Pdf/todo.pdf')
- AshiSingh.sendMessage(m.chat, {document: re, mimetype: '', fileName:`uba danna pakak na.pdf` }, {quoted: m })
+case 'V2000': {
+ re2000 = fs.readFileSync('./AshiSinghMedia/Pdf/V2000.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2000, mimetype: '', fileName:`විවරණ 2000 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
  }
  break
+
 case 'menu':
 await AshiSingh.sendMessage(from,  { text: `╔═══════✪「 MENU 」	
-╠ ${prefix}todo
+╠ ${prefix}v2000 -  විවරණ 2000 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2001 -  විවරණ 2001 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2002 -  විවරණ 2002 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2003 -  විවරණ 2003 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2004 -  විවරණ 2004 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2005 -  විවරණ 2005 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2006 -  විවරණ 2006 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2007 -  විවරණ 2007 ප්‍රශ්න පත්‍රය 
 ╚═════════════✪
 `}  )
 break
