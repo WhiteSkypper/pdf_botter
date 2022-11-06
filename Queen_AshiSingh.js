@@ -843,7 +843,7 @@ case 'wayamba19': {
 
 case 'wayamba18': {
     wayamba18_1 = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba18.pdf')
-    AshiSingh.sendMessage(m.chat, {document: wayamba17_1, mimetype: '', fileName:`වයඹ පළාත් ප්‍රශ්න පත්‍රය 2018.pdf` }, {quoted: m })
+    AshiSingh.sendMessage(m.chat, {document: wayamba18_1, mimetype: '', fileName:`වයඹ පළාත් ප්‍රශ්න පත්‍රය 2018.pdf` }, {quoted: m })
     }
     break
 
@@ -910,24 +910,20 @@ case 'ananda': {
     }
     break
 
-
-	
-
     case 'termtest3':
         await AshiSingh.sendMessage(m.chat,  { text: `
         ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත ඒවා type කරන්න💃
         
-        ${prefix}sena22 - DS සේනානායක ප්‍රශ්න පත්‍රය 2022
+    ${prefix}sena22 - DS සේනානායක ප්‍රශ්න පත්‍රය 2022
          
-        ${prefix}mada21 - මධ්‍යම පළාත් ප්‍රශ්න පත්‍රය 2021
+    ${prefix}mada21 - මධ්‍යම පළාත් ප්‍රශ්න පත්‍රය 2021
         
-        ${prefix}thirdwayamba18 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2018
+    ${prefix}thirdwayamba18 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2018
         
-        ${prefix}thirdwayamba17 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2017
+    ${prefix}thirdwayamba17 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2017
         
         Credit By Synergy Official⚜️`} , {quoted: m } )
         break
-
 
     case 'thirdwayamba18': {
         thirdwayamba18_1 = fs.readFileSync('./AshiSinghMedia/Pdf/thirdwayamba18.pdf')
@@ -951,7 +947,6 @@ case 'ananda': {
             }
             break
 
-    
     case 'mada21': {
         mada21_1 = fs.readFileSync('./AshiSinghMedia/Pdf/mada21.pdf')
                 AshiSingh.sendMessage(m.chat, {document: mada21_1, mimetype: '', fileName:`මධ්‍යම පළාත් ප්‍රශ්න පත්‍රය 2021.pdf` }, {quoted: m })
@@ -961,20 +956,25 @@ case 'ananda': {
                 AshiSingh.sendMessage(m.chat, {document: mada21_3, mimetype: '', fileName:`මධ්‍යම පළාත් I පිලිතුරු පත්‍රය 2021.jpeg` }, {quoted: m })
                 }
                 break
-
-
-        
-        case 'vivarana':
+     
+     case 'vivarana':
         await AshiSingh.sendMessage(m.chat,  { text: `ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත  ඒවා type කරන්න💃
         
-        විවරණ ග්‍රන්ථ ලබා ගැනීමට,
-        ඔයාට ඕනකරන විවරණ පත්තරේ ගන්න කරන්නේ මෙච්චරයි😌
+    විවරණ ග්‍රන්ථ ලබා ගැනීමට,
+    ඔයාට ඕනකරන විවරණ පත්තරේ ගන්න කරන්නේ මෙච්චරයි😌
                  අදාල වර්ෂය type කරන්න.මතක් කරලා ඉස්සරහට V අකුරක් ගහන්න හරිද🤦‍♂️?
         
-        Eg :- ඔයාට ඕනෙ 2010 නම් , v2010 කියලා ටයිප් කරන්න. 
+    Eg :- ඔයාට ඕනෙ 2010 නම් , v2010 කියලා ටයිප් කරන්න. 
         
         Credit By Synergy Official⚜️`} , {quoted: m } )
         break    
+
+    case 'v2023':
+            await AshiSingh.sendMessage(m.chat,  { text: `Eww Piccu Collah🤭මට අනාගතේ දකින්න බෑ modayo😒😒💓`} , {quoted: m } )
+            break
+
+
+
             default:
                 if (budy.startsWith('=>')) {
                     if (!isCreator) return reply(mess.owner)
