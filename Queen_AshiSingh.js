@@ -771,26 +771,26 @@ case 'v2019': {
  }
  break
 case 'v2020':
-await AshiSingh.sendMessage(from,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
+await AshiSingh.sendMessage(m.chat,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
 break
 
 case 'v2021':
-await AshiSingh.sendMessage(from,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
+await AshiSingh.sendMessage(m.chat,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
 break
 
 case 'v2022':
-await AshiSingh.sendMessage(from,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
+await AshiSingh.sendMessage(m.chat,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
 break
 
 case 'v2008':
-await AshiSingh.sendMessage(from,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
+await AshiSingh.sendMessage(m.chat,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
 break
 
 case 'v2023':
-await AshiSingh.sendMessage(from,  { text: `Eww Piccu Collah🤭මට අනාගතේ දකින්න බෑ modayo😒😒💓`}  )
+await AshiSingh.sendMessage(m.chat,  { text: `Eww Piccu Collah🤭මට අනාගතේ දකින්න බෑ modayo😒😒💓`}  )
 break
 case 'menu':
-await AshiSingh.sendMessage(from,  { text: `හායි යාලූ🙊💕
+await AshiSingh.sendMessage(m.chat,  { text: `හායි යාලූ🙊💕
            Synergy ආයතනයේ Bot හා සම්බන්ධ වීම පිලිබද මාගේ ස්තූතිය🫣 !
 
 ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත විධාන භාවිතා කරන්න💃
