@@ -686,14 +686,116 @@ case 'v2004': {
  }
  break
 
-case 'vpaha': {
+case 'v2005': {
  re2005 = fs.readFileSync('./AshiSinghMedia/Pdf/V2005.pdf')
  AshiSingh.sendMessage(m.chat, {document: re2005, mimetype: '', fileName:`විවරණ 2005 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
  }
  break
 
+case 'v2006': {
+ re2006 = fs.readFileSync('./AshiSinghMedia/Pdf/V2006.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2006, mimetype: '', fileName:`විවරණ 2006 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2005': {
+ re2007 = fs.readFileSync('./AshiSinghMedia/Pdf/V2007.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2007, mimetype: '', fileName:`විවරණ 2007 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+
+case 'v2009': {
+ re2005 = fs.readFileSync('./AshiSinghMedia/Pdf/V2009.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2009, mimetype: '', fileName:`විවරණ 2009 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2010': {
+ re2005 = fs.readFileSync('./AshiSinghMedia/Pdf/V2010.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2010, mimetype: '', fileName:`විවරණ 2010 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2011': {
+ re2011 = fs.readFileSync('./AshiSinghMedia/Pdf/V2011.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2011, mimetype: '', fileName:`විවරණ 2011 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2012': {
+ re2012 = fs.readFileSync('./AshiSinghMedia/Pdf/V2012.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2012, mimetype: '', fileName:`විවරණ 2012 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2013': {
+ re2013 = fs.readFileSync('./AshiSinghMedia/Pdf/V2013.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2013, mimetype: '', fileName:`විවරණ 2013 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2014': {
+ re2014 = fs.readFileSync('./AshiSinghMedia/Pdf/V2014.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2014, mimetype: '', fileName:`විවරණ 2014 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2015': {
+ re2015 = fs.readFileSync('./AshiSinghMedia/Pdf/V2015.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2015, mimetype: '', fileName:`විවරණ 2015 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2016': {
+ re2016 = fs.readFileSync('./AshiSinghMedia/Pdf/V2016.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2016, mimetype: '', fileName:`විවරණ 2016 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2005': {
+ re2017 = fs.readFileSync('./AshiSinghMedia/Pdf/V2017.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2017, mimetype: '', fileName:`විවරණ 2017 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2018': {
+ re2018 = fs.readFileSync('./AshiSinghMedia/Pdf/V2018.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2018, mimetype: '', fileName:`විවරණ 2018 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+
+case 'v2019': {
+ re2019 = fs.readFileSync('./AshiSinghMedia/Pdf/V2019.pdf')
+ AshiSingh.sendMessage(m.chat, {document: re2019, mimetype: '', fileName:`විවරණ 2019 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
+ }
+ break
+case 'v2020':
+await AshiSingh.sendMessage(from,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
+break
+
+case 'v2021':
+await AshiSingh.sendMessage(from,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
+break
+
+case 'v2022':
+await AshiSingh.sendMessage(from,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
+break
+
+case 'v2008':
+await AshiSingh.sendMessage(from,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`}  )
+break
+
+case 'v2023':
+await AshiSingh.sendMessage(from,  { text: `Eww Piccu Collah🤭මට අනාගතේ දකින්න බෑ modayo😒😒💓`}  )
+break
 case 'menu':
-await AshiSingh.sendMessage(from,  { text: `╔═══════✪「 MENU 」	
+await AshiSingh.sendMessage(from,  { text: `හායි යාලූ🙊💕
+           Synergy ආයතනයේ Bot හා සම්බන්ධ වීම පිලිබද මාගේ ස්තූතිය🫣 !
+
+ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත විධාන භාවිතා කරන්න💃
+
+විවරණ ග්‍රන්ථ ලබා ගැනීමට,
 ╠ ${prefix}v2000 -  විවරණ 2000 ප්‍රශ්න පත්‍රය 
 ╠ ${prefix}v2001 -  විවරණ 2001 ප්‍රශ්න පත්‍රය 
 ╠ ${prefix}v2002 -  විවරණ 2002 ප්‍රශ්න පත්‍රය 
@@ -702,7 +804,23 @@ await AshiSingh.sendMessage(from,  { text: `╔═══════✪「 MENU 
 ╠ ${prefix}v2005 -  විවරණ 2005 ප්‍රශ්න පත්‍රය 
 ╠ ${prefix}v2006 -  විවරණ 2006 ප්‍රශ්න පත්‍රය 
 ╠ ${prefix}v2007 -  විවරණ 2007 ප්‍රශ්න පත්‍රය 
-╚═════════════✪
+╠ ${prefix}v2008 -  විවරණ 2008 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2009 -  විවරණ 2009 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2010 -  විවරණ 2010 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2011-  විවරණ 2011 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2012 -  විවරණ 2012 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2013 -  විවරණ 2013 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2014 -  විවරණ 2014 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2015 -  විවරණ 2015 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2016 -  විවරණ 2016 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2017 -  විවරණ 2017 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2018 -  විවරණ 2018 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2019 -  විවරණ 2019 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2020 -  විවරණ 2020 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2021 -  විවරණ 2021 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2022 -  විවරණ 2022 ප්‍රශ්න පත්‍රය 
+╠ ${prefix}v2023 -  විවරණ 2023 ප්‍රශ්න පත්‍රය 
+
 `}  )
 break
 	
