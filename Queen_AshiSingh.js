@@ -788,12 +788,11 @@ Synergy ආයතනයේ Bot හා සම්බන්ධ වීම පිල�
 
 ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත ඒවා type කරන්න💃
 
-විවරණ ග්‍රන්ථ ලබා ගැනීමට,
-╠ ${prefix}vivarana - විවරණ ග්‍රන්ථ ලබා ගැනීමට
-╠ 
-╠ ${prefix}termtest2 - දෙවන වාර විභාගයට අදාල සෙට් එක 
-╠
-╠ ${prefix}termtest3 - තෙවන වාර විභාගයට අදාල සෙට් එක
+${prefix}vivarana - විවරණ ග්‍රන්ථ ලබා ගැනීමට
+
+${prefix}termtest2 - දෙවන වාර විභාගයට අදාල සෙට් එක 
+
+${prefix}termtest3 - තෙවන වාර විභාගයට අදාල සෙට් එක
 
 Credit By Synergy Official⚜️`} , {quoted: m } )
 break
@@ -803,27 +802,27 @@ case 'termtest2':
 await AshiSingh.sendMessage(m.chat,  { text: `
 ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත ඒවා type කරන්න💃
 
-╠ ${prefix}ananda - Colombo Ananda College 2016
-╠ 
-╠ ${prefix}vishaka - Colombo Vishaka 2019
-╠
-╠ ${prefix}dakuna19 - Dakuna 2019
-╠
-╠ ${prefix}dakuna20 - Dakuna 2020
-╠
-╠ ${prefix}sena16 - DS Senanayake 2016
-╠
-╠ ${prefix}royal16 - Royal 2016
-╠
-╠ ${prefix}thurston19 - Thurston 2019
-╠
-╠ ${prefix}wayamba17 - Wayamba 2017
-╠
-╠ ${prefix}wayamba18 - Wayamba 2018
-╠
-╠ ${prefix}wayamba19 - Wayamba 2019
-╠
-╠ ${prefix}wayamba20 - Wayamba 2020
+${prefix}ananda - කොළඹ ආනන්ද ප්‍රශ්න පත්‍රය 2016
+
+${prefix}vishaka - කොළඹ විශාකා ප්‍රශ්න පත්‍රය 2019
+
+${prefix}dakuna19 - දකුණ පළාත් ප්‍රශ්න පත්‍රය 2019
+
+${prefix}dakuna20 - දකුණ පළාත් ප්‍රශ්න පත්‍රය 2020
+
+${prefix}sena16 - DS සේනානායක ප්‍රශ්න පත්‍රය 2020
+
+${prefix}royal16 - කොළඹ රෝයල් ප්‍රශ්න පත්‍රය 2016
+
+${prefix}thurston19 - තස්ටන් ප්‍රශ්න පත්‍රය 2019
+
+${prefix}wayamba17 - වයඹ පළාත් ප්‍රශ්න පත්‍රය 2017
+
+${prefix}wayamba18 - වයඹ පළාත් ප්‍රශ්න පත්‍රය 2018
+
+${prefix}wayamba19 - වයඹ පළාත් ප්‍රශ්න පත්‍රය 2019
+
+${prefix}wayamba20 - වයඹ පළාත් ප්‍රශ්න පත්‍රය 2020
 
 Credit By Synergy Official⚜️`} , {quoted: m } )
 break
@@ -834,16 +833,19 @@ case 'wayamba20': {
     wayamba20_2 = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba201.pdf')
     AshiSingh.sendMessage(m.chat, {document: wayamba20_2, mimetype: '', fileName:`වයඹ පළාත් පිලිතුරු පත්‍රය 2020.pdf` }, {quoted: m })
     }
+    break
 
 case 'wayamba19': {
     wayamba19_1 = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba19.pdf')
     AshiSingh.sendMessage(m.chat, {document: wayamba19_1, mimetype: '', fileName:`වයඹ පළාත් ප්‍රශ්න පත්‍රය 2019.pdf` }, {quoted: m })
     }
+    break
 
 case 'wayamba18': {
     wayamba18_1 = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba18.pdf')
     AshiSingh.sendMessage(m.chat, {document: wayamba17_1, mimetype: '', fileName:`වයඹ පළාත් ප්‍රශ්න පත්‍රය 2018.pdf` }, {quoted: m })
     }
+    break
 
 case 'wayamba17': {
     wayamba17_1 = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba17.pdf')
@@ -851,6 +853,7 @@ case 'wayamba17': {
     wayamba17_2 = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba171.pdf')
     AshiSingh.sendMessage(m.chat, {document: wayamba17_2, mimetype: '', fileName:`වයඹ පළාත් පිලිතුරු පත්‍රය 2017.pdf` }, {quoted: m })
     }
+    break
 
 case 'thurston19': {
     thurston19_1 = fs.readFileSync('./AshiSinghMedia/Pdf/thurston19.pdf')
@@ -858,6 +861,7 @@ case 'thurston19': {
     thurston19_2 = fs.readFileSync('./AshiSinghMedia/Pdf/thurston191.pdf')
     AshiSingh.sendMessage(m.chat, {document: thurston19_2, mimetype: '', fileName:`තස්ටන් පිලිතුරු පත්‍රය 2019.pdf` }, {quoted: m })
     }
+    break
 
 case 'royal16': {
     royal16_1 = fs.readFileSync('./AshiSinghMedia/Pdf/royal16.pdf')
@@ -865,6 +869,7 @@ case 'royal16': {
     royal16_2 = fs.readFileSync('./AshiSinghMedia/Pdf/royal161.pdf')
     AshiSingh.sendMessage(m.chat, {document: royal16_2, mimetype: '', fileName:`කොළඹ රෝයල් පිලිතුරු පත්‍රය 2016.pdf` }, {quoted: m })
     }
+    break
 
 case 'sena16': {
     sena16_1 = fs.readFileSync('./AshiSinghMedia/Pdf/sena16.pdf')
@@ -872,7 +877,7 @@ case 'sena16': {
     sena16_2 = fs.readFileSync('./AshiSinghMedia/Pdf/sena161.pdf')
     AshiSingh.sendMessage(m.chat, {document: sena16_2, mimetype: '', fileName:`DS සේනානායක පිලිතුරු පත්‍රය 2020.pdf` }, {quoted: m })
     }
-
+    break
 case 'dakuna20': {
     dakuna20_1 = fs.readFileSync('./AshiSinghMedia/Pdf/dakuna20.pdf')
     AshiSingh.sendMessage(m.chat, {document: dakuna20_1, mimetype: '', fileName:`දකුණ පළාත් ප්‍රශ්න පත්‍රය 2020.pdf` }, {quoted: m })
@@ -912,13 +917,13 @@ case 'ananda': {
         await AshiSingh.sendMessage(m.chat,  { text: `
         ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත ඒවා type කරන්න💃
         
-        ╠ ${prefix}sena22 - DS Senanayake 2022
-        ╠ 
-        ╠ ${prefix}mada21 - Madyama 2021
-        ╠
-        ╠ ${prefix}thirdwayamba18 - Wayamba 2018
-        ╠
-        ╠ ${prefix}thirdwayamba17 - Wayamba 2019
+        ${prefix}sena22 - DS සේනානායක ප්‍රශ්න පත්‍රය 2022
+         
+        ${prefix}mada21 - මධ්‍යම පළාත් ප්‍රශ්න පත්‍රය 2021
+        
+        ${prefix}thirdwayamba18 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2018
+        
+        ${prefix}thirdwayamba17 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2017
         
         Credit By Synergy Official⚜️`} , {quoted: m } )
         break
