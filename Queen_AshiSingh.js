@@ -660,7 +660,7 @@ case 'v2001': {
  break
 
 case 'v2002': {
- re2000 = fs.readFileSync('./AshiSinghMedia/Pdf/V2000.pdf')
+ re2002 = fs.readFileSync('./AshiSinghMedia/Pdf/V2000.pdf')
  AshiSingh.sendMessage(m.chat, {document: re2002, mimetype: '', fileName:`විවරණ 2002 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
  }
  break
@@ -672,7 +672,7 @@ case 'v2003': {
  break
 
 case 'v2004': {
- re2000 = fs.readFileSync('./AshiSinghMedia/Pdf/V2000.pdf')
+ re2004 = fs.readFileSync('./AshiSinghMedia/Pdf/V2000.pdf')
  AshiSingh.sendMessage(m.chat, {document: re2004, mimetype: '', fileName:`විවරණ 2004 ප්‍රශ්න පත්‍රය.pdf` }, {quoted: m })
  }
  break
@@ -765,10 +765,6 @@ case 'v2019': {
 case 'v2020':
 await AshiSingh.sendMessage(m.chat,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`} , {quoted: m } )
 break
-		
-case 'skyper':
-await AshiSingh.sendMessage(m.chat,  { text: `Ai Sgo`} , {quoted: m } )
-break
 
 case 'v2021':
 await AshiSingh.sendMessage(m.chat,  { text: `මෙම විවරණ පත්‍රය අප හා සම්බන්ධ කර නොමැත😢.කරුණාකර අපගේ Boss දැනුවත් කරන්න🫡`} , {quoted: m } )
@@ -786,11 +782,17 @@ case 'v2023':
 await AshiSingh.sendMessage(m.chat,  { text: `Eww Piccu Collah🤭මට අනාගතේ දකින්න බෑ modayo😒😒💓`} , {quoted: m } )
 break
 
+case 'love':
+await AshiSingh.sendMessage(m.chat,  { text: `Eww Piccu Collah🤭💓`} , {quoted: m } )
+break
+
 case 'menu':
 await AshiSingh.sendMessage(m.chat,  { text: `හායි යාලූ🙊💕
 Synergy ආයතනයේ Bot හා සම්බන්ධ වීම පිලිබද මාගේ ස්තූතිය🫣 !
 
 ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත ඒවා type කරන්න💃
+
+${prefix}thushen - තුශේන් අයියා ලග තියෙන PDF ඔක්කොම
 
 ${prefix}vivarana - විවරණ ග්‍රන්ථ ලබා ගැනීමට
 
@@ -830,6 +832,67 @@ ${prefix}wayamba20 - වයඹ පළාත් ප්‍රශ්න පත්�
 
 Credit By Synergy Official⚜️`} , {quoted: m } )
 break
+
+case 'thushen': {
+    wayamba20_1x = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba20.pdf')
+    AshiSingh.sendMessage(m.chat, {document: wayamba20_1x, mimetype: '', fileName:`වයඹ පළාත් ප්‍රශ්න පත්‍රය 2020.pdf` }, {quoted: m })
+    wayamba20_2x = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba201.pdf')
+    AshiSingh.sendMessage(m.chat, {document: wayamba20_2x, mimetype: '', fileName:`වයඹ පළාත් පිලිතුරු පත්‍රය 2020.pdf` }, {quoted: m })
+    wayamba19_1x = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba19.pdf')
+    AshiSingh.sendMessage(m.chat, {document: wayamba19_1x, mimetype: '', fileName:`වයඹ පළාත් ප්‍රශ්න පත්‍රය 2019.pdf` }, {quoted: m })
+    wayamba18_1x = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba18.pdf')
+    AshiSingh.sendMessage(m.chat, {document: wayamba18_1x, mimetype: '', fileName:`වයඹ පළාත් ප්‍රශ්න පත්‍රය 2018.pdf` }, {quoted: m })
+    wayamba17_1x = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba17.pdf')
+    AshiSingh.sendMessage(m.chat, {document: wayamba17_1x, mimetype: '', fileName:`වයඹ පළාත් ප්‍රශ්න පත්‍රය 2017.pdf` }, {quoted: m })
+    wayamba17_2x = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba171.pdf')
+    AshiSingh.sendMessage(m.chat, {document: wayamba17_2x, mimetype: '', fileName:`වයඹ පළාත් පිලිතුරු පත්‍රය 2017.pdf` }, {quoted: m })
+    thurston19_1x = fs.readFileSync('./AshiSinghMedia/Pdf/thurston19.pdf')
+    AshiSingh.sendMessage(m.chat, {document: thurston19_1x, mimetype: '', fileName:`තස්ටන් ප්‍රශ්න පත්‍රය 2019.pdf` }, {quoted: m })
+    thurston19_2x = fs.readFileSync('./AshiSinghMedia/Pdf/thurston191.pdf')
+    AshiSingh.sendMessage(m.chat, {document: thurston19_2x, mimetype: '', fileName:`තස්ටන් පිලිතුරු පත්‍රය 2019.pdf` }, {quoted: m })
+    royal16_1x = fs.readFileSync('./AshiSinghMedia/Pdf/royal16.pdf')
+    AshiSingh.sendMessage(m.chat, {document: royal16_1x, mimetype: '', fileName:`කොළඹ රෝයල් ප්‍රශ්න පත්‍රය 2016.pdf` }, {quoted: m })
+    royal16_2x = fs.readFileSync('./AshiSinghMedia/Pdf/royal161.pdf')
+    AshiSingh.sendMessage(m.chat, {document: royal16_2x, mimetype: '', fileName:`කොළඹ රෝයල් පිලිතුරු පත්‍රය 2016.pdf` }, {quoted: m })
+    sena16_1x = fs.readFileSync('./AshiSinghMedia/Pdf/sena16.pdf')
+    AshiSingh.sendMessage(m.chat, {document: sena16_1x, mimetype: '', fileName:`DS සේනානායක ප්‍රශ්න පත්‍රය 2020.pdf` }, {quoted: m })
+    sena16_2x = fs.readFileSync('./AshiSinghMedia/Pdf/sena161.pdf')
+    AshiSingh.sendMessage(m.chat, {document: sena16_2x, mimetype: '', fileName:`DS සේනානායක පිලිතුරු පත්‍රය 2020.pdf` }, {quoted: m })
+    dakuna20_1x = fs.readFileSync('./AshiSinghMedia/Pdf/dakuna20.pdf')
+    AshiSingh.sendMessage(m.chat, {document: dakuna20_1x, mimetype: '', fileName:`දකුණ පළාත් ප්‍රශ්න පත්‍රය 2020.pdf` }, {quoted: m })
+    dakuna20_2x = fs.readFileSync('./AshiSinghMedia/Pdf/dakuna201.pdf')
+    AshiSingh.sendMessage(m.chat, {document: dakuna20_2x, mimetype: '', fileName:`දකුණ පළාත් පිලිතුරු පත්‍රය 2020.pdf` }, {quoted: m })
+    dakuna19_1x = fs.readFileSync('./AshiSinghMedia/Pdf/dakuna19.pdf')
+    AshiSingh.sendMessage(m.chat, {document: dakuna19_1x, mimetype: '', fileName:`දකුණ පළාත් ප්‍රශ්න පත්‍රය 2019.pdf` }, {quoted: m })
+    dakuna19_2x = fs.readFileSync('./AshiSinghMedia/Pdf/dakuna191.pdf')
+    AshiSingh.sendMessage(m.chat, {document: dakuna19_2x, mimetype: '', fileName:`දකුණ පළාත් පිලිතුරු පත්‍රය 2019.pdf` }, {quoted: m })
+    vishaka_1x = fs.readFileSync('./AshiSinghMedia/Pdf/vishaka.pdf')
+    AshiSingh.sendMessage(m.chat, {document: vishaka_1x, mimetype: '', fileName:`කොළඹ විශාකා ප්‍රශ්න පත්‍රය 2019.pdf` }, {quoted: m })
+    vishaka_2x = fs.readFileSync('./AshiSinghMedia/Pdf/vishaka1.pdf')
+    AshiSingh.sendMessage(m.chat, {document: vishaka_2x, mimetype: '', fileName:`කොළඹ විශාකා පිලිතුරු පත්‍රය 2019.pdf` }, {quoted: m })
+    termtest2_1x = fs.readFileSync('./AshiSinghMedia/Pdf/ananda.pdf')
+    AshiSingh.sendMessage(m.chat, {document: termtest2_1x, mimetype: '', fileName:`කොළඹ ආනන්ද ප්‍රශ්න පත්‍රය 2016.pdf` }, {quoted: m })
+    termtest2_2x = fs.readFileSync('./AshiSinghMedia/Pdf/ananda1.pdf')
+    AshiSingh.sendMessage(m.chat, {document: termtest2_2x, mimetype: '', fileName:`කොළඹ ආනන්ද පිලිතුරු පත්‍රය 2016.pdf` }, {quoted: m })
+    thirdwayamba18_1x = fs.readFileSync('./AshiSinghMedia/Pdf/thirdwayamba18.pdf')
+    AshiSingh.sendMessage(m.chat, {document: thirdwayamba18_1x, mimetype: '', fileName:`වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2018.pdf` }, {quoted: m })
+    thirdwayamba17_1x = fs.readFileSync('./AshiSinghMedia/Pdf/thirdwayamba17.pdf')
+    AshiSingh.sendMessage(m.chat, {document: thirdwayamba17_1x, mimetype: '', fileName:`වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2017.pdf` }, {quoted: m })
+    sena22_1x = fs.readFileSync('./AshiSinghMedia/Pdf/sena22.pdf')
+    AshiSingh.sendMessage(m.chat, {document: sena22_1x, mimetype: '', fileName:`DS සේනානායක I ප්‍රශ්න පත්‍රය 2022.pdf` }, {quoted: m })
+     sena22_2x = fs.readFileSync('./AshiSinghMedia/Pdf/sena221.pdf')
+    AshiSingh.sendMessage(m.chat, {document: sena22_2x, mimetype: '', fileName:`DS සේනානායක II ප්‍රශ්න පත්‍රය 2022.pdf` }, {quoted: m })
+    sena22_3x = fs.readFileSync('./AshiSinghMedia/Pdf/sena222.pdf')
+    AshiSingh.sendMessage(m.chat, {document: sena22_3x, mimetype: '', fileName:`DS සේනානායක පිලිතුරු පත්‍රය 2022.pdf` }, {quoted: m })
+    mada21_1x = fs.readFileSync('./AshiSinghMedia/Pdf/mada21.pdf')
+    AshiSingh.sendMessage(m.chat, {document: mada21_1x, mimetype: '', fileName:`මධ්‍යම පළාත් ප්‍රශ්න පත්‍රය 2021.pdf` }, {quoted: m })
+    mada21_2x = fs.readFileSync('./AshiSinghMedia/Pdf/mada211.pdf')
+    AshiSingh.sendMessage(m.chat, {document: mada21_2x, mimetype: '', fileName:`මධ්‍යම පළාත් II පිලිතුරු පත්‍රය 2021.pdf` }, {quoted: m })
+    mada21_3x = fs.readFileSync('./AshiSinghMedia/Pdf/mada212.jpeg')
+    AshiSingh.sendMessage(m.chat, {image : mada21_3x, mimetype: '' }, {quoted: m })
+    
+    }
+    break
 
 case 'wayamba20': {
     wayamba20_1 = fs.readFileSync('./AshiSinghMedia/Pdf/wayamba20.pdf')
@@ -914,19 +977,19 @@ case 'ananda': {
     }
     break
 
-    case 'termtest3':
-        await AshiSingh.sendMessage(m.chat,  { text: `
-        ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත ඒවා type කරන්න💃
+case 'termtest3':
+    await AshiSingh.sendMessage(m.chat,  { text: `
+     ඔබට අවශ්‍ය PDF ලබාගැනීමට පහත ඒවා type කරන්න💃
         
-    ${prefix}sena22 - DS සේනානායක ප්‍රශ්න පත්‍රය 2022
+${prefix}sena22 - DS සේනානායක ප්‍රශ්න පත්‍රය 2022
          
-    ${prefix}mada21 - මධ්‍යම පළාත් ප්‍රශ්න පත්‍රය 2021
+${prefix}mada21 - මධ්‍යම පළාත් ප්‍රශ්න පත්‍රය 2021
         
-    ${prefix}thirdwayamba18 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2018
+${prefix}thirdwayamba18 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2018
         
-    ${prefix}thirdwayamba17 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2017
+${prefix}thirdwayamba17 - වයඹ පළාත් තෙවන ප්‍රශ්න පත්‍රය 2017
         
-        Credit By Synergy Official⚜️`} , {quoted: m } )
+    Credit By Synergy Official⚜️`} , {quoted: m } )
         break
 
     case 'thirdwayamba18': {
