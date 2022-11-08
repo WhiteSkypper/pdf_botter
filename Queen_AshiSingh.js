@@ -834,6 +834,7 @@ Credit By Synergy Official⚜️`} , {quoted: m } )
 break
 
 case 'thushen1': {
+    dakuna20_1x = fs.readFileSync('./AshiSinghMedia/Pdf/dakuna20.pdf')
     AshiSingh.sendMessage(m.chat, {document: dakuna20_1x, mimetype: '', fileName:`දකුණ පළාත් ප්‍රශ්න පත්‍රය 2020.pdf` }, {quoted: m })
     dakuna20_2x = fs.readFileSync('./AshiSinghMedia/Pdf/dakuna201.pdf')
     AshiSingh.sendMessage(m.chat, {document: dakuna20_2x, mimetype: '', fileName:`දකුණ පළාත් පිලිතුරු පත්‍රය 2020.pdf` }, {quoted: m })
